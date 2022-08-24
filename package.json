@@ -1,0 +1,35 @@
+{
+  "name": "ipaint",
+  "version": "1.0.0",
+  "description": "Painting Weblog",
+  "main": "appjs",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node app",
+    "dev": "cross-env NODE_ENV=development DEBUG=Ipaint nodemon app"
+  },
+  "keywords": [],
+  "author": "Farhad",
+  "license": "MIT",
+  "dependencies": {
+    "app-root-path": "^3.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^4.6.0",
+    "cross-env": "^7.0.3",
+    "debug": "^4.3.1",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.17.3",
+    "feather-icons": "^4.29.0",
+    "mongoose": "^6.3.8",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.1",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "winston": "^3.3.3",
+    "yup": "^0.32.11"
+  }
+}

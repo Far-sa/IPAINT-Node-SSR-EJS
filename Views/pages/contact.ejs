@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include("../partials/head.ejs") %>
+</head>
+
+
+<body>
+    <div class="hero_area">
+        <!-- header section strats -->
+        <header class="header_section">
+            <%- include("../partials/header.ejs")%>
+        </header>
+        <!-- end header section -->
+
+        <!-- slider section -->
+        <section class=" slider_section position-relative">
+            <%- include("../partials/slider.ejs") %>
+        </section>
+        <!-- end slider section -->
+    </div>
+
+    <!-- contact section -->
+
+    <section class="contact_section layout_padding">
+        <div class="container ">
+            <div class="heading_container justify-content-center">
+                <h2 class="">
+                    Contact Us
+                </h2>
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <form action="">
+                        <div>
+                            <input type="text" placeholder="Name" />
+                        </div>
+                        <div>
+                            <input type="email" placeholder="Email" />
+                        </div>
+                        <div>
+                            <input type="text" placeholder="Pone Number" />
+                        </div>
+                        <div>
+                            <input type="text" class="message-box" placeholder="Message" />
+                        </div>
+                        <div class="d-flex  mt-4 ">
+                            <button>
+                                SEND
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end contact section -->
+
+
+
+    <!-- info section -->
+    <section class="info_section layout_padding">
+        <%- include("../partials/info.ejs") %>
+    </section>
+
+    <!-- end info_section -->
+
+    <!-- footer section -->
+    <footer class="container-fluid footer_section">
+
+        <%- include("../partials/footer.ejs") -%>
+    </footer>
+    <!-- footer section -->
+
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/js/custom.js"></script>
+    <!-- Google Map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
+    </script>
+    <!-- End Google Map -->
+</body>
+
+</html>

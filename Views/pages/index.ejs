@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include("../partials/head.ejs") %>
+</head>
+
+
+
+<body>
+    <div class="hero_area">
+        <!-- header section strats -->
+        <header class="header_section">
+            <%- include("../partials/header.ejs")%>
+        </header>
+        <!-- end header section -->
+
+        <!-- slider section -->
+        <section class=" slider_section position-relative">
+            <%- include("../partials/slider.ejs") %>
+        </section>
+        <!-- end slider section -->
+    </div>
+
+    <!-- about section -->
+    <section class="about_section ">
+        <%- include("../partials/about.ejs") %>
+    </section>
+    <!-- end about section -->
+
+    <!-- why section -->
+    <section class="why_section layout_padding">
+        <%- include("../partials/choose.ejs") %>
+    </section>
+    <!-- end why section -->
+
+
+
+    <!-- client section -->
+    <section class="client_section layout_padding">
+        <%- include("../partials/client.ejs") %>
+    </section>
+    <!-- end client section -->
+
+    <!-- arrange section -->
+
+    <section class="arrange_section">
+        <div class="container">
+            <div class="detail_box">
+                <h2>
+                    Our Wonderful Arrangements
+                </h2>
+                <p>
+                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                    piece
+                    of
+                    classical Latin
+                    literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
+                    professor
+                    at
+                    Hampden-Sydney
+                    College in Virginia, looked up one of the more obscure Latin words
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- end arrange section -->
+
+
+
+    <!-- map section -->
+
+    <div class="map_section">
+        <div class="map_container">
+            <div class="map">
+                <div id="googleMap"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end map section -->
+
+    <!-- info section -->
+    <section class="info_section layout_padding">
+        <%- include("../partials/info.ejs") %>
+    </section>
+
+    <!-- end info_section -->
+
+    <!-- footer section -->
+    <footer class="container-fluid footer_section">
+        <%- include("../partials/footer.ejs") -%>
+    </footer>
+    <!-- footer section -->
+
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/js/custom.js"></script>
+    <!-- Google Map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
+    </script>
+    <!-- End Google Map -->
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include("../partials/head.ejs") %>
+</head>
+
+
+<body class="sub_page">
+    <!-- header section strats -->
+    <header class="header_section">
+        <%- include("../partials/header.ejs")%>
+    </header>
+    <!-- end header section -->
+
+    <!-- gallery section -->
+    <section class="gallery_section layout_padding">
+
+        <div class="heading_container justify-content-center">
+            <h2>
+                Our Gallery
+            </h2>
+        </div>
+        <div class="container">
+            <div class="img_container">
+                <div class="box-1">
+                    <div class="box-1-container">
+                        <div class="b-1">
+                            <div class="img-box">
+                                <img src="images/g-1.jpg" alt="">
+                            </div>
+                            <div class="img-box">
+                                <img src="images/g-4.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="b-2">
+                            <div class="img-box">
+                                <img src="images/g-2.jpg" alt="">
+                            </div>
+                            <div class="img-box">
+                                <img src="images/g-5.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="b-3">
+                        <div class="img-box">
+                            <img src="images/g-7.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="box-2">
+                    <div class="img-box">
+                        <img src="images/g-3.jpg" alt="">
+                    </div>
+                    <div class="img-box">
+                        <img src="images/g-6.jpg" alt="">
+                    </div>
+                    <div class="img-box flex-grow-1">
+                        <img src="images/g-8.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- end gallery section -->
+
+
+    <!-- info section -->
+    <section class="info_section layout_padding">
+        <%- include("../partials/info.ejs") %>
+    </section>
+
+    <!-- end info_section -->
+
+    <!-- footer section -->
+    <footer class="container-fluid footer_section">
+
+        <%- include("../partials/footer.ejs") -%>
+    </footer>
+    <!-- footer section -->
+
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/js/custom.js"></script>
+    <!-- Google Map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
+    </script>
+    <!-- End Google Map -->
+</body>
+
+</html>
